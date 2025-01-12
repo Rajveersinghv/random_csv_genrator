@@ -9,6 +9,8 @@
 - **Chunk Handling**: Efficiently handles large data generation by saving data in chunks and combining them into a single CSV file.
 - **Progress Tracking**: Saves progress and allows resuming from where it left off in case of interruptions.
 - **Automatic Folder Creation**: Automatically creates a "sample" folder to save the generated CSV files.
+- **Auto Resume**: Automatically resumes data generation from the last saved progress in case of interruptions.
+- **Chunk Deletion**: Deletes chunk files after combining them into the final CSV file.
 
 ### Usage
 1. Clone the repository:
@@ -25,4 +27,4 @@
    ```
 
 ### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
